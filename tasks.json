@@ -1,0 +1,19 @@
+[ {
+  "id" : 1,
+  "description" : "Do homework",
+  "status" : "COMPLETED",
+  "createdAt" : "2026-03-19 15:17:16",
+  "updatedAt" : "2026-03-19 15:26:02"
+}, {
+  "id" : 2,
+  "description" : "Buy Milk",
+  "status" : "IN_PROGRESS",
+  "createdAt" : "2026-03-19 15:17:34",
+  "updatedAt" : "2026-03-19 15:25:46"
+}, {
+  "id" : 3,
+  "description" : "Cooking",
+  "status" : "TODO",
+  "createdAt" : "2026-03-19 15:18:00",
+  "updatedAt" : "2026-03-19 15:18:00"
+} ]
