@@ -4,6 +4,8 @@ project url: <a href="https://roadmap.sh/projects/task-tracker">https://roadmap.
 
 ## Run application
 
+Open terminal and run these commands
+
 1. Clone repo
 
 ```
@@ -13,42 +15,42 @@ cd task-tracker-api
 
 2. Start app
 
-   Open terminal and run these commands
-
-- Build .jar file:
+- Build .jar file
 
 ```
 mvn clean package
 ```
 
 - Output: `target/task-tracker-api-0.0.1-SNAPSHOT.jar`
-    - Test:
-        - add
-          ```
-          java -jar target/task-tracker-api-0.0.1-SNAPSHOT.jar add <description>
-          ```
 
-        - update
-          ```
-          java -jar target/task-tracker-api-0.0.1-SNAPSHOT.jar update <id> <description>
-          ```
+3. Test
 
-        - delele
-          ```
-          java -jar target/task-tracker-api-0.0.1-SNAPSHOT.jar delete <id>
-          ```
+- add
+  ```
+  java -jar target/task-tracker-api-0.0.1-SNAPSHOT.jar add <description>
+  ```
 
-        - mark in progress
-          ```
-          java -jar target/task-tracker-api-0.0.1-SNAPSHOT.jar mark-in-progress <id>
-          ```
+- update
+  ```
+  java -jar target/task-tracker-api-0.0.1-SNAPSHOT.jar update <id> <description>
+  ```
 
-        - mark completed
-          ```
-          java -jar target/task-tracker-api-0.0.1-SNAPSHOT.jar mark-completed <id>
-          ```
+- delele
+  ```
+  java -jar target/task-tracker-api-0.0.1-SNAPSHOT.jar delete <id>
+  ```
 
-        - list
-          ```
-          java -jar target/task-tracker-api-0.0.1-SNAPSHOT.jar list
-          ```
+- mark in progress
+  ```
+  java -jar target/task-tracker-api-0.0.1-SNAPSHOT.jar mark-in-progress <id>
+  ```
+
+- mark completed
+  ```
+  java -jar target/task-tracker-api-0.0.1-SNAPSHOT.jar mark-completed <id>
+  ```
+
+- list
+  ```
+  java -jar target/task-tracker-api-0.0.1-SNAPSHOT.jar list
+  ```
