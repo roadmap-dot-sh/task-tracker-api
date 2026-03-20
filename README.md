@@ -21,36 +21,36 @@ cd task-tracker-api
 mvn clean package
 ```
 
-- Output: `target/task-tracker-api-0.0.1-SNAPSHOT.jar`
+Output: `target/task-tracker-api-0.0.1-SNAPSHOT.jar`
 
 3. Test
 
-- add
+- Add Task: Pass parameter `description`
   ```
   java -jar target/task-tracker-api-0.0.1-SNAPSHOT.jar add <description>
   ```
 
-- update
+- Update Task: Pass 2 parameters `id` and `description`
   ```
   java -jar target/task-tracker-api-0.0.1-SNAPSHOT.jar update <id> <description>
   ```
 
-- delele
+- Delete Task: Pass parameter `id`
   ```
   java -jar target/task-tracker-api-0.0.1-SNAPSHOT.jar delete <id>
   ```
 
-- mark in progress
+- Mark task in progress: Pass parameter `id`
   ```
   java -jar target/task-tracker-api-0.0.1-SNAPSHOT.jar mark-in-progress <id>
   ```
 
-- mark completed
+- Mark task completed: Pass parameter `id`
   ```
   java -jar target/task-tracker-api-0.0.1-SNAPSHOT.jar mark-completed <id>
   ```
 
-- list
+- List all tasks
   ```
   java -jar target/task-tracker-api-0.0.1-SNAPSHOT.jar list
   ```
